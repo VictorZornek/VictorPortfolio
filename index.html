@@ -3,13 +3,9 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
-    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
-    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
-    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/style.css">
 
     <title>Victor Profile</title>
@@ -28,7 +24,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active ms-2"><a class="nav-link active text-white" href="#home"><i class="fa-solid fa-house fa-lg"></i> Home</a></li>
                     <li class="nav-item ms-2"><a class="nav-link" href="#aboutMe"> About Me</a></li>
-                    <li class="nav-item ms-2"><a class="nav-link" href="#"><i class="fa-solid fa-folder fa-lg"></i> Projects</a></li>
+                    <li class="nav-item ms-2"><a class="nav-link" href="#projects"><i class="fa-solid fa-folder fa-lg"></i> Projects</a></li>
                     <li class="nav-item ms-2"><a class="nav-link" href="#"><i class="fa-solid fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
             </div>
@@ -40,10 +36,10 @@
 
         <!-- Home Page -->
         <section class="row row-content mt-3" id="home">
-            <div class="col-sm-6 mt-5">
+            <div class="col-sm-6 mt-5 p-5">
                 <h2>Hi, I am</h2>
                 <h2>Victor Zornek</h2>
-                <p>Frontend Developer</p>
+                <p class="text-grey">Frontend Developer</p>
                 <button type="button" class="btn btn-success">Download CV</button>
             </div>
             <div class="col-sm-6 mt-3 mb-3">
@@ -53,37 +49,53 @@
 
         <!-- About me -->
         <section class="row row-content mt-5" id="aboutMe">
-            <div class="d-flex justify-content-center">
-                <div class="row mb-3">
-                    <h2>About Me</h2>
-                </div>
+            <div class="col mb-4">
+                <h2 class="text-center">About Me</h2>
+                <p class="text-center mt-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem accusantium
+                    ullam officia doloremque sunt dolorem asperiores veritatis magnam ad laboriosam commodi adipisci
+                    facere, voluptates corrupti dignissimos beatae cum sequi.  Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Hic laborum cum ipsa. Sed obcaecati nam asperiores laborum, eos eaque rerum quisquam
+                    illum voluptates, molestias magnam nihil distinctio deleniti quaerat beatae!</p>
             </div>
-            <p class="d-flex justify-content-center mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repellendus voluptatum <br> 
-                numquam provident consectetur nam, aut quaerat? Dolorem quod porro reprehenderit eos, <br> 
-                quidem magni! Debitis adipisci natus provident esse ex? Lorem, ipsum dolor sit amet consectetur <br> 
-                adipisicing elit. Excepturi natus, voluptates voluptatum aut pariatur doloremque temporibus <br>
-                quaerat mollitia amet perspiciatis modi expedita enim repudiandae qui omnis similique, id <br>
-                voluptatibus iusto!
-            </p>
-            <div class="row mt-3">
-                <div class="col col-xs-12">
+            <div class="row mt-3 ">
+                <div class="col-xs-12 col-md-6 col-lg-3">
                     <h5 class="d-flex justify-content-center">Full Name</h5>
                     <p class="d-flex justify-content-center">Victor Garcia Zornek</p>
                 </div>
-                <div class="col col-xs-12">
+                <div class="col-xs-12 col-md-6 col-lg-3">
                     <h5 class="d-flex justify-content-center">Email Address</h5>
                     <p class="d-flex justify-content-center">vzornek@gmail.com</p>
                 </div>
-                <div class="col col-xs-12">
+                <div class="col-xs-12 col-md-6 col-lg-3">
                     <h5 class="d-flex justify-content-center">Github</h5>
                     <p class="d-flex justify-content-center">github.com/VictorZornek</p>
                 </div>
-                <div class="col col-xs-12">
+                <div class="col-xs-12 col-md-6 col-lg-3">
                     <h5 class="d-flex justify-content-center">Phone</h5>
                     <p class="d-flex justify-content-center">+5511952780048</p>
                 </div>
             </div>
+        </section>
 
+        <!-- Projects -->
+        <section class="row row-content mt-5" id="projects">
+            <div class="row">
+                <h2 class="text-center mb-5">Some of my Projects</h2>
+                <div class="col-xs-12 col-md-6 col-lg-3 mb-3">
+                    <img class="d-block w-100" src="img/NucampsiteProject.png" alt="">
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 mb-3">
+                    <img class="d-block w-100" src="img/TicTacToeProject.png" alt="">
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 mb-3">
+                    <img class="d-block w-100" src="img/FacilRecognitionProject.png" alt="">
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 mb3">
+                    <img class="d-block w-100" src="img/BlogProject.png" alt="">
+                </div>
+                <p class="mt-5 text-center">You can check the rest of my personal projects at my <a class="text-info" href="https://github.com/VictorZornek">Github</a>!</p>
+            </div>
+        
         </section>
 
     </main>
