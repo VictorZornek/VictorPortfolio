@@ -1,0 +1,17 @@
+body {
+    background-color: #171717;
+    color: white;
+}
+
+nav {
+     background-color: #27AE60;
+}
+
+.btn-success {
+    background-color: #27AE60;
+    outline: #27AE60;
+}
+
+.nav-link {
+    color: white;
+}
