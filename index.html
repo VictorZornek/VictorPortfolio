@@ -25,7 +25,7 @@
                     <li class="nav-item active ms-2"><a class="nav-link active text-white" href="#home"><i class="fa-solid fa-house fa-lg"></i> Home</a></li>
                     <li class="nav-item ms-2"><a class="nav-link" href="#aboutMe"> About Me</a></li>
                     <li class="nav-item ms-2"><a class="nav-link" href="#projects"><i class="fa-solid fa-folder fa-lg"></i> Projects</a></li>
-                    <li class="nav-item ms-2"><a class="nav-link" href="#"><i class="fa-solid fa-address-card fa-lg"></i> Contact</a></li>
+                    <li class="nav-item ms-2"><a class="nav-link" href="#contact"><i class="fa-solid fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -51,11 +51,13 @@
         <section class="row row-content mt-5" id="aboutMe">
             <div class="col mb-4">
                 <h2 class="text-center">About Me</h2>
-                <p class="text-center mt-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem accusantium
-                    ullam officia doloremque sunt dolorem asperiores veritatis magnam ad laboriosam commodi adipisci
-                    facere, voluptates corrupti dignissimos beatae cum sequi.  Lorem ipsum dolor sit, amet consectetur
-                    adipisicing elit. Hic laborum cum ipsa. Sed obcaecati nam asperiores laborum, eos eaque rerum quisquam
-                    illum voluptates, molestias magnam nihil distinctio deleniti quaerat beatae!</p>
+                <p class="text-center mt-4 mb-3">My name is Victor Zornek, I'm 21 years old, and I'm currently living in São Paulo, Brazil.
+                    I'm a student and a frontend developer that is studying new technologies and frameworks, such as Bootstrap and React, since I have already studied
+                    two years of Computer Science in Brazil and I'm planning to improve my skills and habilities in tech. <br>Talking a little about my self, I have lived almost a 
+                    year out of my country, what was an incredible experience for me, because I could visit some wonderful places around the world and grow up as a human been.<br>
+                    I have participated of Web Development Fundamentals from Nucamp where I could learn about Bootstrap, so the next step of my journey is going to learn more
+                    about JavaScript, React and in the future I'm going to study Python. <br>This is just the begining!
+                </p>
             </div>
             <div class="row mt-3 d-flex justify-content-evenly ">
                 <div class="col-xs-12 col-md-6 col-lg-3">
@@ -91,27 +93,57 @@
                 </div>
                 <p class="text-center mb-5">These are some of my favorites repositories that I created in Github for my projects</p>
                 <div class="col-xs-12 col-md-6 col-lg-3 mb-3 ">
-                    <img class="d-block w-100" src="img/NucampsiteProject.png" alt="">
+                    <img class="d-block w-100 rounded border border-white" src="img/NucampsiteProject.png" alt="">
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-3 mb-3">
-                    <img class="d-block w-100" src="img/TicTacToeProject.png" alt="">
+                    <img class="d-block w-100 rounded rounded border border-white" src="img/TicTacToeProject.png" alt="">
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-3 mb-3">
-                    <img class="d-block w-100" src="img/FacilRecognitionProject.png" alt="">
+                    <img class="d-block w-100 rounded border border-white" src="img/FacilRecognitionProject.png" alt="">
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-3 mb3">
-                    <img class="d-block w-100" src="img/BlogProject.png" alt="">
+                    <img class="d-block w-100 rounded border border-white" src="img/BlogProject.png" alt="">
                 </div>
-                <p class="mt-3 text-center">You can check the rest of my personal projects at my <a class="text-info" href="https://github.com/VictorZornek">Github</a>!</p>
+                <p class="mt-4 text-center">You can check the rest of my personal projects at my <a class="text-success" href="https://github.com/VictorZornek">Github</a>!</p>
             </div>
         
         </section>
 
+        <!-- Contact Section -->
+        <section class="row row-content" id="contact">
+            <div class="mt-4 text-center mb-3">
+                <h2>Get in touch</h2>
+                <p>Questions to ask? Fill out the form to contact me.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <form>
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="First Name" required>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <input type="text" class="form-control" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <input type="text" class="form-control" placeholder="Phone">
+                        </div>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <textarea class="form-control" name="messageTextArea" id="messageTextArea" cols="30" rows="5" placeholder="Message"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-center mb-4">
+                        <button class="btn btn-success">Submit Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
     </main>
-
-
-
-
 
 
     <!-- Bootstrap JavaScript plugins -->

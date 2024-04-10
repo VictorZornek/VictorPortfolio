@@ -28,3 +28,12 @@ nav {
 .nav-link {
     color: white;
 }
+
+.text-success {
+    color: #27AE60;
+}
+
+.form-control {
+    background-color: #171717;
+    color: white;
+}
